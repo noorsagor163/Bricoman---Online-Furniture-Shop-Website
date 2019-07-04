@@ -1,0 +1,457 @@
+/* ========== Xtra Small Device Media Start ============ */
+
+@media (max-width:575.98px) {
+
+    .navbar {
+        padding: 10px 15px;
+        background:#D8D9D4;
+    }
+
+    .navbar-brand {
+        padding-top:0;
+    }
+
+    .navbar-brand img {
+        width:140px;
+    }
+
+    .navbar-toggler {
+        box-shadow: none;
+        outline:0;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #0D1D41;
+    }
+
+    .navbar ul {
+        padding: 10px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0 5px;
+    }
+
+    .navbar .form-inline {
+        display: block;
+    }
+
+    .navbar-toggler span {
+        color:#0D1D41;
+        font-size:22.5px;
+    }
+
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 270px;
+    }
+
+    .banner-text h1 {
+        font-size: 39px;
+    }
+
+    .banner-text a {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+
+    .bottom-number {
+        bottom: 50px;
+    }
+
+    .bottom-number li {
+        font-size: 22px;
+        margin: 0 5px;
+    }
+
+    .bottom-number li:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .bottom-number li:nth-child(2)::before {
+        bottom: 4px;
+        width: 25px;
+        height: 3px;
+    }
+
+    .bottom-icon {
+        bottom: -42px;
+        width: 300px;
+    }
+
+    .bottom-icon ul li a img {
+        width:25px;
+    }
+
+    .bottom-icon ul li {
+        margin: 0 20px;
+    }
+
+    .bottom-icon ul li::before {
+        right: -25px;
+    }
+
+    .bottom-icon ul {
+        padding: 25px 0;
+    }
+
+    #imgbox {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .box-item {
+        height: auto;
+    }
+
+    .head h2 {
+        font-size: 27px;
+    }
+
+    .left, .right {
+        display:none;
+    }
+
+    .slide-item {
+        margin:20px 0;
+    }
+
+    #testimonial {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .info-icon {
+        display:none;
+    }
+
+    .info-desc {
+        margin-top:20px;
+    }
+
+    .info-item {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .footer-item {
+        padding: 15px 0;
+    }
+
+}
+
+/* ========== Xtra Small Device Media End ============ */
+
+/* ========== Small Device Media Start ============ */
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    .navbar {
+        padding: 10px 15px;
+        background:#D8D9D4;
+    }
+
+    .navbar-brand {
+        padding-top:0;
+    }
+
+    .navbar-brand img {
+        width:140px;
+    }
+
+    .navbar-toggler {
+        box-shadow: none;
+        outline:0;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #0D1D41;
+    }
+
+    .navbar ul {
+        padding: 10px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0 5px;
+    }
+
+    .navbar .form-inline {
+        display: block;
+    }
+
+    .navbar-toggler span {
+        color:#0D1D41;
+        font-size:22.5px;
+    }
+
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 270px;
+    }
+
+    .banner-text h1 {
+        font-size: 39px;
+    }
+
+    .banner-text a {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+
+    .bottom-number {
+        bottom: 50px;
+    }
+
+    .bottom-number li {
+        font-size: 22px;
+        margin: 0 5px;
+    }
+
+    .bottom-number li:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .bottom-number li:nth-child(2)::before {
+        bottom: 4px;
+        width: 25px;
+        height: 3px;
+    }
+
+    .bottom-icon {
+        bottom: -42px;
+        width: 300px;
+    }
+
+    .bottom-icon ul li a img {
+        width:25px;
+    }
+
+    .bottom-icon ul li {
+        margin: 0 20px;
+    }
+
+    .bottom-icon ul li::before {
+        right: -25px;
+    }
+
+    .bottom-icon ul {
+        padding: 25px 0;
+    }
+
+    #imgbox {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .box-item {
+        height: auto;
+    }
+
+    .left, .right {
+        display:none;
+    }
+
+    .head h2 {
+        font-size: 27px;
+    }
+
+    .slide-item {
+        margin:20px 0;
+    }
+
+    #testimonial {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .info-icon {
+        display:none;
+    }
+
+    .info-desc {
+        margin-top:20px;
+    }
+
+    .info-item {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .footer-item {
+        padding: 15px 0;
+    }
+
+}
+
+/* ========== Small Device Media End ============ */
+
+/* ========== Medium Device Media Start ============ */
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    .navbar {
+        padding: 10px 15px;
+        background:#D8D9D4;
+    }
+
+    .navbar-brand {
+        padding-top:0;
+    }
+
+    .navbar-brand img {
+        width:140px;
+    }
+
+    .navbar-toggler {
+        box-shadow: none;
+        outline:0;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #0D1D41;
+    }
+
+    .navbar ul {
+        padding: 10px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0 5px;
+    }
+
+    .navbar .form-inline {
+        display: block;
+    }
+
+    .navbar-toggler span {
+        color:#0D1D41;
+        font-size:22.5px;
+    }
+
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 270px;
+    }
+
+    .banner-text h1 {
+        font-size: 39px;
+    }
+
+    .banner-text a {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+
+    .bottom-number {
+        bottom: 50px;
+    }
+
+    .bottom-number li {
+        font-size: 22px;
+        margin: 0 5px;
+    }
+
+    .bottom-number li:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .bottom-number li:nth-child(2)::before {
+        bottom: 4px;
+        width: 25px;
+        height: 3px;
+    }
+
+    .bottom-icon {
+        bottom: -42px;
+        width: 300px;
+    }
+
+    .bottom-icon ul li a img {
+        width:25px;
+    }
+
+    .bottom-icon ul li {
+        margin: 0 20px;
+    }
+
+    .bottom-icon ul li::before {
+        right: -25px;
+    }
+
+    .bottom-icon ul {
+        padding: 25px 0;
+    }
+
+    #imgbox {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .box-item {
+        height: auto;
+    }
+
+    .left, .right {
+        display:none;
+    }
+
+    .head h2 {
+        font-size: 27px;
+    }
+
+    .slide-item {
+        margin:20px 0;
+    }
+
+    #testimonial {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .info-icon {
+        display:none;
+    }
+
+    .info-desc {
+        margin-top:20px;
+    }
+
+    .info-item {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .footer-item {
+        padding: 15px 0;
+    }
+
+}
+
+/* ========== Medium Device Media End ============ */
+
+/* ========== Large Device Media Start ============ */
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+    .navbar-brand img {
+        width:145px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0 20px;
+    }
+
+    .left, .right {
+        width: 30px;
+        top: -15px;
+    }
+
+    .test-item {
+        margin: 20px 0;
+        padding:15px;
+    }
+
+}
+
+/* ========== Large Device Media End ============ */

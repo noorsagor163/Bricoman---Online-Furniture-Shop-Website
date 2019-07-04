@@ -1,0 +1,456 @@
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin-bottom:0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+.form-control:focus {
+    outline:0;
+    box-shadow: none;
+    border:0;
+}
+
+button:hover, button:focus {
+    outline:0;
+    background:none;
+    box-shadow:none;
+    border:0;
+}
+
+.head h2 {
+    font-family:robos-bold;
+    font-size:36px;
+    color:#020202;
+    text-transform:uppercase;
+    position:relative;
+    padding-bottom:10px;
+    margin-bottom:20px;
+}
+
+.head h2:before {
+    position: absolute;
+    width:150px;
+    height:3px;
+    background:#EF7C08;
+    content:'';
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+@font-face {
+    src:url(../fonts/RobotoSlab-Bold.ttf);
+    font-family:robos-bold;
+}
+
+@font-face {
+    src:url(../fonts/RobotoSlab-Regular.ttf);
+    font-family:robos-regular;
+}
+
+@font-face {
+    src:url(../fonts/RobotoSlab-Light.ttf);
+    font-family:robos-light;
+}
+
+@font-face {
+    src:url(../fonts/RobotoSlab-Thin.ttf);
+    font-family:robos-thin;
+}
+
+/* =========== Header Part CSS Start =========== */
+
+.navbar {
+    padding: 10px 30px;
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family:robos-regular;
+    font-size:20px;
+    color:#01295C;
+    margin:0 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    font-family:robos-bold;
+}
+
+.search-input {
+    background:none;
+    border-bottom: 2px solid #fff;
+    position:relative;
+}
+
+.search-input .form-control {
+    background:transparent;
+    border:0;
+    font-family: robos-regular;
+    font-size:16px;
+    color:#fff;
+    text-transform:capitalize;
+    padding-bottom:5px;
+    padding-left:5px;
+}
+
+.search-input input::placeholder {
+    font-size:16px;
+    color:#fff;
+    text-transform:capitalize;
+}
+
+.search-input button {
+    position: absolute;
+    background:none;
+    border:0;
+    padding:0;
+    top:50%;
+    right:5px;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+
+.search-input button:hover {
+    background:none;
+    border:0;
+}
+
+.search-input button img {
+    width:20px;
+}
+
+/* =========== Header Part CSS End =========== */
+
+/* =========== Banner Part CSS Start =========== */
+
+#banner {
+    background:url(../images/banner.jpg) no-repeat center;
+    background-size:cover;
+    padding-top:130px;
+    padding-bottom:520px;
+    position:relative;
+}
+
+.banner-text h1 {
+    font-family:robos-bold;
+    font-size:72px;
+    color:#EF7C08;
+    padding-bottom:20px;
+}
+
+.banner-text a {
+    font-family:robos-bold;
+    font-size:23px;
+    color:#fff;
+    background:#EF7C08;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.bottom-number {
+    position: absolute;
+    bottom: 70px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.bottom-number li {
+    display:inline-block;
+    font-family:robos-bold;
+    font-size:36px;
+    color:#fff;
+    margin: 0 8px;
+}
+
+.bottom-number li:nth-child(2) {
+    font-size:50px;
+    color:#EF7C08;
+    position:relative;
+}
+
+.bottom-number li:nth-child(2):before {
+    position:absolute;
+    content:'';
+    bottom:5px;
+    left:50%;
+    transform:translateX(-50%);
+    width:35px;
+    height:4px;
+    background:#fff;
+}
+
+.bottom-icon {
+    position: absolute;
+    bottom:-50px;
+    left:50%;
+    transform:translateX(-50%);
+    width:500px;
+    background:#fff;
+    box-shadow: 0px 8px 15px 0px #ddd;
+}
+
+.bottom-icon ul {
+    text-align:center;
+    padding: 30px 0;
+}
+
+.bottom-icon ul li {
+    display:inline-block;
+    margin: 0 38px;
+    position: relative;
+}
+
+.bottom-icon ul li:before {
+    position: absolute;
+    content:'';
+    width:2px;
+    height:70%;
+    background:#EF7C08;
+    top:50%;
+    transform: translateY(-50%);
+    right:-39px;
+}
+
+.bottom-icon ul li:last-child:before {
+    display:none;
+}
+
+/* =========== Banner Part CSS End =========== */
+
+/* =========== Box Image Part CSS Start =========== */
+
+#imgbox {
+    padding-top:150px;
+    padding-bottom:70px;
+}
+
+.box-item {
+    background:#fff;
+    box-shadow: 0px 0px 15px 0px #ddd;
+    padding: 20px;
+    box-sizing:border-box;
+    text-align:center;
+    margin-bottom:30px;
+    height:210px;
+    position: relative;
+}
+
+.box-item h3 {
+    font-family:robos-bold;
+    font-size:24px;
+    color:#020202;
+}
+
+.box-long {
+    position: relative;
+}
+
+.box-long h3 {
+    width:100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.box-long2 {
+    margin-top:25px;
+}
+
+/* =========== Box Image Part CSS End =========== */
+
+/* =========== Prodotti Part CSS Start =========== */
+
+.prodotti-slide-main {
+    position: relative;
+}
+
+.prodotti-slide {
+    margin-bottom:20px;
+}
+
+.left {
+    position:absolute;
+    top:50%;
+    left:15px;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+
+.right {
+    position:absolute;
+    top:50%;
+    right:15px;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+
+.slide-item {
+    margin: 20px;
+    background:#fff;
+    box-shadow: 0px 0px 20px 1px #999;
+}
+
+.slide-item h4 {
+    font-family: robos-bold;
+    font-size: 20px;
+    color:#050505;
+    padding-bottom:5px;
+}
+
+.slide-item p {
+    font-family: robos-regular;
+    font-size: 14px;
+    color:#050505;
+}
+
+.slide-desc {
+    padding:10px;
+    box-sizing:border-box;
+    position:relative;
+}
+
+.price-tag {
+    position: absolute;
+    top:7px;
+    right:0;
+    padding: 2px 5px;
+    padding-left: 15px;
+    background:#01295C;
+    clip-path: polygon(23% 0, 100% 0, 100% 100%, 23% 100%, 0 50%);
+}
+
+.price-tag span {
+    font-family:robos-bold;
+    font-size:14px;
+    color:#fff;
+}
+
+/* =========== Prodotti Part CSS End =========== */
+
+/* =========== Testimonial Part CSS Start =========== */
+
+#testimonial {
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.test-item {
+    margin: 20px;
+    background:#fff;
+    box-shadow: 0px 0px 20px 1px #999;
+    padding:18px;
+    box-sizing:border-box;
+    margin-bottom:40px;
+}
+
+.test-item h3 {
+    font-family:robos-bold;
+    font-size:24px;
+    color:#020202;
+    padding-top:10px;
+    padding-bottom:7px;
+}
+
+.test-item p {
+    font-family:robos-regular;
+    font-size: 12px;
+    color:#020202;
+    padding-bottom:10px;
+}
+
+.test-item ul li {
+    display:inline-block;
+}
+
+.test-item ul li i {
+    color:#EF7C08;
+}
+
+/* =========== Testimonial Part CSS End =========== */
+
+/* =========== Information Part CSS Start =========== */
+
+#information {
+    margin-bottom:60px;
+}
+
+.info-icon {
+    background:#f4f4f4;
+    padding: 0 5px;
+    margin-top:20px;
+}
+
+.info-desc {
+    background:#DADADA;
+    padding: 10px 5px;
+}
+
+.info-desc h6 {
+    font-family:robos-bold;
+    font-size:18px;
+    color:#000000;
+    padding-bottom:5px;
+}
+
+.info-desc h6 span, .info-desc h6 a {
+    font-family:robos-light;
+    font-size:16px;
+    color:#333;
+}
+
+.info-desc p {
+    font-family:robos-light;
+    font-size:16px;
+    color:#000000;
+}
+
+/* =========== Information Part CSS End =========== */
+
+/* =========== Footer Part CSS Start =========== */
+
+footer {
+    background:#DADADA;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.footer-item h6 {
+    font-family:robos-bold;
+    font-size:18px;
+    color:#030303;
+    padding-bottom:20px;
+}
+
+.footer-item ul li a {
+    font-family:robos-regular;
+    font-size:14px;
+    color:#030303;
+}
+
+/* =========== Footer Part CSS End =========== */
